@@ -28,12 +28,14 @@ To run GPU code, you'll need to specifically select the runtime type in Colab:
 
 
 ### Option 2: Flatiron Institute BinderHub
-Flatiron Institute hosts a public BinderHub that allows several CPUs per user, as well as a small GPU slice. This is a good option for working on CPU parallel code, or as an alternative to Colab GPUs. However, the service can only handle a few dozen simultaneous users.
+Flatiron Institute hosts a BinderHub that allows several CPUs per user, as well as a small GPU slice. This is a good option for working on CPU parallel code, or as an alternative to Colab GPUs. However, the service can only handle a few dozen simultaneous users and requires sign-up.
+
+Please fill out this form if you would like access to the following Binders: https://forms.gle/cj9U89irsEVcM7X66
 
 | Environment | Link |
 |-------------|------|
-| CPU-only | [![Binder](https://mybinder.org/badge_logo.svg)](https://binder.flatironinstitute.org/~lgarrison/dsfp-session21)
-| GPU-enabled | [![Binder](https://mybinder.org/badge_logo.svg)](https://binder.flatironinstitute.org/~lgarrison/dsfp-session21-cuda)
+| dsfp-session21 (CPU-only) | [![Binder](https://mybinder.org/badge_logo.svg)](https://binder.flatironinstitute.org/~lgarrison/dsfp-session21)
+| dsfp-session21-cuda (GPU-enabled) | [![Binder](https://mybinder.org/badge_logo.svg)](https://binder.flatironinstitute.org/~lgarrison/dsfp-session21-cuda)
 
 See here for general FI BinderHub documentation: https://wiki.flatironinstitute.org/Public/UsingFiBinder
 
